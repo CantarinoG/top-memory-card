@@ -1,0 +1,11 @@
+.header h1 {
+    font-family: var(--tw-title);
+    text-align: center;
+    background-image: var(--title-bg-img);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: none;
+    padding: 12px;
+    font-size: 3em;
+}

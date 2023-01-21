@@ -1,14 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Signika:wght@400;700&display=swap');
 
+@font-face {
+    font-family: tw-title;
+    src: url('../assets/tw-title.ttf');
+  }
+
 :root {
     --signika: 'Signika', sans-serif;
     --roboto: 'Roboto', sans-serif;
     --title-bg-img: linear-gradient(90deg,#fadf7a,#e2a73e);
     --regular-text: #d9d8cb;
+    --tw-title: 'tw-title', var(--signika);
 }
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body {
+    background-image: url('../assets/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
 }
