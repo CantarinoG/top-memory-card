@@ -5,6 +5,7 @@ import Header from "./components/Header";
 import Scoreboard from "./components/Scoreboard";
 
 import "./styles/App.css";
+import Cardgrid from "./components/Cardgrid";
 
 const App = () => {
 
@@ -21,6 +22,7 @@ const App = () => {
         score="4"
         best="10"
         />
+        <Cardgrid/>
     </div>
 
 }
