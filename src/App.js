@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 
 import Modal from "./components/Modal";
 import Header from "./components/Header";
@@ -8,6 +8,21 @@ import "./styles/App.css";
 import Cardgrid from "./components/Cardgrid";
 
 const App = () => {
+
+    const [cardList, setCardList] = useState([
+        {id: 0, clicked: false},
+        {id: 1, clicked: false},
+        {id: 2, clicked: false},
+        {id: 3, clicked: false},
+        {id: 4, clicked: false},
+        {id: 5, clicked: false},
+        {id: 6, clicked: false},
+        {id: 7, clicked: false},
+        {id: 8, clicked: false},
+        {id: 9, clicked: false},
+        {id: 10, clicked: false},
+        {id: 11, clicked: false},
+    ]);
 
     return <div className="App">
         <Modal
@@ -22,7 +37,9 @@ const App = () => {
         score="4"
         best="10"
         />
-        <Cardgrid/>
+        <Cardgrid
+        cardList={cardList}
+        />
     </div>
 
 }
