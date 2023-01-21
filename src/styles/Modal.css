@@ -1,0 +1,65 @@
+.modal-background {
+    background-color: rgba(0, 0, 0, 0.9);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal {
+    position: relative;
+    background-image: url('../assets/modal-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border: 5px solid transparent;
+    border-image: url('../assets/border.png') 4 round;
+    padding: 20px;
+}
+
+.modal h1 {
+    font-family: var(--signika);
+    text-align: center;
+    background-image: var(--title-bg-img);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: none;
+    margin-bottom: 8px;
+}
+
+.modal p {
+    color: var(--regular-text);
+    font-family: var(--roboto);
+}
+
+.modal button {
+    position: absolute;
+    top: 2px;
+    right: 4px;
+    background-image: var(--title-bg-img);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: none;
+    font-size: large;
+    border: 1px solid #fadf7a;
+    height: 22.8px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.modal button:hover {
+    border: 1px solid white;
+    text-shadow: 0px 0px 3px white;
+}
+
+.hidden {
+    display: none;
+}
