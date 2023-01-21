@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/top-memory-card/static/css/main.0a516076.css",
+    "main.js": "/top-memory-card/static/js/main.61bf1090.js",
+    "static/media/bg.jpg": "/top-memory-card/static/media/bg.744b9c26f53ef3a915a4.jpg",
+    "static/media/modal-bg.jpg": "/top-memory-card/static/media/modal-bg.262f9197114f4e13e1fe.jpg",
+    "static/media/dandelion.jpg": "/top-memory-card/static/media/dandelion.3d8fbe3c4da77634710a.jpg",
+    "static/media/ciri.jpg": "/top-memory-card/static/media/ciri.4d12482a436bd5a54c0f.jpg",
+    "static/media/geralt.jpg": "/top-memory-card/static/media/geralt.96f1839d2deaa9e2df03.jpg",
+    "static/media/villen.jpg": "/top-memory-card/static/media/villen.e4fd9502a9e8b3a3145a.jpg",
+    "static/media/yennefer.jpg": "/top-memory-card/static/media/yennefer.01e49144533c920350f4.jpg",
+    "static/media/avallach.jpg": "/top-memory-card/static/media/avallach.8e800cb8e989ffdca1d7.jpg",
+    "static/media/triss.jpg": "/top-memory-card/static/media/triss.bcb9fa09b262dc69411e.jpg",
+    "static/media/zoltan.jpg": "/top-memory-card/static/media/zoltan.cf828af5cb394d6c7608.jpg",
+    "static/media/horn.jpg": "/top-memory-card/static/media/horn.9fb52db6ac7eb2386551.jpg",
+    "static/media/decoy.jpg": "/top-memory-card/static/media/decoy.6da68cd6988b397d8072.jpg",
+    "static/media/regis.jpg": "/top-memory-card/static/media/regis.24001e5b45a24724d002.jpg",
+    "static/media/vesemir.jpg": "/top-memory-card/static/media/vesemir.b821a16a3ca996de58bd.jpg",
+    "static/media/tw-title.ttf": "/top-memory-card/static/media/tw-title.d40f3b84832ebc8a9a50.ttf",
+    "index.html": "/top-memory-card/index.html",
+    "main.0a516076.css.map": "/top-memory-card/static/css/main.0a516076.css.map",
+    "main.61bf1090.js.map": "/top-memory-card/static/js/main.61bf1090.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0a516076.css",
+    "static/js/main.61bf1090.js"
+  ]
+}
