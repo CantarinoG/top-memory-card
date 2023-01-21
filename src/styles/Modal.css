@@ -35,6 +35,7 @@
 .modal p {
     color: var(--regular-text);
     font-family: var(--roboto);
+    text-align: center;
 }
 
 .modal button {

@@ -8,7 +8,7 @@ const Cardgrid = (props) => {
     return <div className="cardgrid">
         
         {props.cardList.map((card) => 
-            <div className="card" key={card.id} id={"c"+card.id}></div>
+            <div className="card" key={card.id} id={"c"+card.id} onClick={props.handleClick}></div>
         )}
     </div>
 

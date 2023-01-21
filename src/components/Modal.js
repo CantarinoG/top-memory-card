@@ -8,6 +8,10 @@ const Modal = (props) => {
 
     const handleClick = () => {
         setShow(false);
+        if(props.function){
+            const setLost = props.function;
+            setLost(props.argument);
+        }
     }
     
     if(show) {
