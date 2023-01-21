@@ -2,9 +2,9 @@ import React from "react";
 
 import "../styles/Header.css";
 
-const Header = () => {
+const Header = (props) => {
 
-    return <header className="header"><h1>Witcher's Memory</h1></header>;
+    return <header className="header"><h1>{props.title}</h1></header>;
 
 }
 

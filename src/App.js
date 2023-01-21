@@ -1,7 +1,8 @@
 import React from "react";
-import Header from "./components/Header";
 
-import Modal from "./components/Modal"
+import Modal from "./components/Modal";
+import Header from "./components/Header";
+import Scoreboard from "./components/Scoreboard";
 
 import "./styles/App.css";
 
@@ -15,6 +16,10 @@ const App = () => {
         />
         <Header
         title="Witcher's Memory"
+        />
+        <Scoreboard
+        score="4"
+        best="10"
         />
     </div>
 
